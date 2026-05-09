@@ -6,11 +6,12 @@ The desktop app fetches `manifest.json` from this repo's latest GitHub
 Release, downloads any new packs, and adds them to users' backpacks
 without anyone needing to install a new app version.
 
-> Phase 1-A status — at the time of this initial commit, the desktop app
-> ships **without** a compiled-in URL pointing here. Releases tagged in
-> this repo only reach users who set `BONGO_CONTENT_MANIFEST_URL`
-> manually. The plan is to flip that switch in a future release; until
-> then this repo is dogfood-only.
+> The desktop app's default `manifest_url()` points at this repo's
+> `latest` GitHub Release alias, so anything published from `main` via
+> the `Publish content release` workflow is delivered to every installed
+> copy of the desktop app on the next sync. Read
+> [`docs/invariants.md`](docs/invariants.md) before doing anything
+> non-trivial.
 
 ## Repo layout
 
