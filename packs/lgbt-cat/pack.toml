@@ -1,0 +1,28 @@
+id = "lgbt-cat"
+name = "LGBT Cat"
+version = 1
+
+[[items]]
+slot = "bg"
+name = "LGBT Cat"
+weight = 10
+
+[[items]]
+slot = "left-up"
+name = "LGBT Cat Left Up Hand"
+weight = 10
+
+[[items]]
+slot = "left-down"
+name = "LGBT Cat Left Down Hand"
+weight = 10
+
+[[items]]
+slot = "right-up"
+name = "LGBT Cat Right Up Hand"
+weight = 10
+
+[[items]]
+slot = "right-down"
+name = "LGBT Cat Right Down Hand"
+weight = 10

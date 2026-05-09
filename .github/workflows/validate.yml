@@ -1,0 +1,31 @@
+name: Validate
+
+on:
+  pull_request:
+    paths:
+      - "packs/**"
+      - "scripts/**"
+      - ".github/workflows/validate.yml"
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build (dry run)
+        run: |
+          python3 scripts/build_manifest.py \
+            --tag dry-run \
+            --owner "${{ github.repository_owner }}" \
+            --repo "${{ github.event.repository.name }}" \
+            --out dist
+
+      - name: Validate manifest
+        run: python3 scripts/validate_pack.py dist/manifest.json

@@ -1,0 +1,28 @@
+id = "yellow-cat"
+name = "Yellow Cat"
+version = 1
+
+[[items]]
+slot = "bg"
+name = "Yellow Cat"
+weight = 10
+
+[[items]]
+slot = "left-up"
+name = "Yellow Cat Left Up Hand"
+weight = 10
+
+[[items]]
+slot = "left-down"
+name = "Yellow Cat Left Down Hand"
+weight = 10
+
+[[items]]
+slot = "right-up"
+name = "Yellow Cat Right Up Hand"
+weight = 10
+
+[[items]]
+slot = "right-down"
+name = "Yellow Cat Right Down Hand"
+weight = 10

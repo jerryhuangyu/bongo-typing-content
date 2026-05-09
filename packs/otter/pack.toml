@@ -1,0 +1,28 @@
+id = "otter"
+name = "Otter"
+version = 1
+
+[[items]]
+slot = "bg"
+name = "Otter"
+weight = 10
+
+[[items]]
+slot = "left-up"
+name = "Otter Left Up Hand"
+weight = 10
+
+[[items]]
+slot = "left-down"
+name = "Otter Left Down Hand"
+weight = 10
+
+[[items]]
+slot = "right-up"
+name = "Otter Right Up Hand"
+weight = 10
+
+[[items]]
+slot = "right-down"
+name = "Otter Right Down Hand"
+weight = 10

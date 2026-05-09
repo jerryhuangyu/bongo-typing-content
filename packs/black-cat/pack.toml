@@ -1,0 +1,28 @@
+id = "black-cat"
+name = "Black Cat"
+version = 1
+
+[[items]]
+slot = "bg"
+name = "Black Cat"
+weight = 10
+
+[[items]]
+slot = "left-up"
+name = "Black Cat Left Up Hand"
+weight = 10
+
+[[items]]
+slot = "left-down"
+name = "Black Cat Left Down Hand"
+weight = 10
+
+[[items]]
+slot = "right-up"
+name = "Black Cat Right Up Hand"
+weight = 10
+
+[[items]]
+slot = "right-down"
+name = "Black Cat Right Down Hand"
+weight = 10

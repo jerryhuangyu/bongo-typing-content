@@ -1,0 +1,15 @@
+# Build output (created by scripts/build_manifest.py)
+/dist/
+
+# OS
+.DS_Store
+
+# Editor scratch
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
